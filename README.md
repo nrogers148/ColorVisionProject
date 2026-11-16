@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Nicki's CIE Colorblindness Palettes
+=======
+# Nicki's CIE Colorblindness Palettes
+>>>>>>> 84cac98aaf672fdc7ccd4497da961aaf0421c0c2
 
 Provided a palette of 3 colors and a choice
 of 3 types of colorblindness, determines similarity
@@ -7,8 +11,21 @@ persepctive of someone with the selected type of colorblindness.
 
 **version 1.0**
 
+<<<<<<< HEAD
 Nicole Rogers
 
+=======
+Provided a palette of 3 colors and a choice
+of 3 types of colorblindness, determines similarity
+between the colors in relation to each other from the
+persepctive of someone with the selected type of colorblindness.
+
+## Developer
+
+Nicole Rogers
+
+## Example
+>>>>>>> 84cac98aaf672fdc7ccd4497da961aaf0421c0c2
 Here is an example of the program running:
 
 ```
@@ -46,4 +63,8 @@ Color 2 and Color 3 are too dark to be seen together.
 Color 1 & Color 2 are very well contrasted. Feel free to use them in a color-blind frinedly palette.
 Color 1 & Color 3 are very well contrasted. Feel free to use them in a color-blind frinedly palette.
 Colors 2 & 3 are too similar to work in a color friendly palette.
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 84cac98aaf672fdc7ccd4497da961aaf0421c0c2

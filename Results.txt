@@ -1,0 +1,16 @@
+Color 1: 
+Red: 5
+Green: 54
+Blue: 156
+
+Color 2: 
+Red: 154
+Green: 25
+Blue: 69
+
+Color 3: 
+Red: 251
+Green: 96
+Blue: 108
+
+
