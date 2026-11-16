@@ -1,70 +1,95 @@
-<<<<<<< HEAD
-Nicki's CIE Colorblindness Palettes
-=======
-# Nicki's CIE Colorblindness Palettes
->>>>>>> 84cac98aaf672fdc7ccd4497da961aaf0421c0c2
 
+# Nicki's CIE Colorblindness Palette Evaluator
+## **Version 2.1**
 Provided a palette of 3 colors and a choice
 of 3 types of colorblindness, determines similarity
 between the colors in relation to each other from the
 persepctive of someone with the selected type of colorblindness.
 
-**version 1.0**
+## New in v2.1:
+- The program can now do batches of palettes
+- Refined readability and program messages
+- Adjusted parameters for the comparisons
 
-<<<<<<< HEAD
-Nicole Rogers
+## To be added:
+- Variability in color palette size
+- Add more detail to Results Text
 
-=======
-Provided a palette of 3 colors and a choice
-of 3 types of colorblindness, determines similarity
-between the colors in relation to each other from the
-persepctive of someone with the selected type of colorblindness.
 
 ## Developer
 
 Nicole Rogers
 
 ## Example
->>>>>>> 84cac98aaf672fdc7ccd4497da961aaf0421c0c2
-Here is an example of the program running:
+There is an example file with some random numbers that can be used to test the batch testing feature. Additional files should be formatted similarly
+
+## Example Input
+255 0 0
+
+0 255 0
+
+0 0 255
+
+
+100 10 1
+
+2 20 200
+
+50 100 150
+
+## Example Output
+Using the first color example,
+here is an example of the program running:
 
 ```
-Hello, and welcome to my Color Blindness Project.
-This program can check for Protanopia, Deuteranopia, and Tritanopia. Would you like a brief description of these types of colorblindness?
-(y/n): y
-All right
-Protanopia is also known as Red/Green color blindness, along with Deuteranopia. People with these two types of color blindness struggle to differentiate between reds, greens, browns, and oranges.
-Tritanopia is also known as blue/yellow color blindness. People with this kind of color blindness struggle to differentiate between blue, yellow, violet, red, blue, and green.
-
-Which type of colorblindness would you like to check for?
+Hello and welcome to the Color Blindness Palette Checker!
+Just input one of the available types of color blindness and 3 colors
+and find out if your colors are visible to someone with that type of vision.
+Before continuing, would you like a brief definition of the three color blindness types this program uses?
+(y/n): n
+All right, let's continue then.
+Now, which type of colorblindness would you like to check for?
 A. Protanopia or B. Deuteranopia or C.Tritanopia
+(A/B/C): 
 A
-Thank you
+Moving on then, would you like to input one set of 3 colors or multiple?
+A. One set   B. Many sets
+(A/B): 
+A
 Please input 3 colors in RGB format on the lines below.
-Color 1: 
-   Red: 255
-   Green: 0
-   Blue: 0
+Color 1:
+   Red:255
+   Green:0
+   Blue:0
+Color 2:
+   Red:0
+   Green:255
+   Blue:0
+Color 3:
+   Red:0
+   Green:0
+   Blue:255
 
-Color 2: 
-   Red: 15
-   Green: 15
-   Blue: 15
 
-Color 3: 
-   Red: 25
-   Green: 25
-   Blue: 25
+Your results are...
+
+Color 1 & Color 2 can work together. They contrast, but are still similar. Use with care.
+
+Your colors work somewhat well togther. Your colors can be used together, but be careful. There is some contrast, but they are starting to look similar.
+ In a larger palette, they are fine - especially when not used next to each other. Be careful about using them in
+ smaller palettes or placing them near each other though.
+
+Color 1 & Color 3 work together very well. They have a high level of contrast that would make them easy to see!
+
+Your colors work well together. They can be safely used with little fear that they will be mistaken as the same color by someone colorblind.
+
+Color 2 & Color 3 work together very well. They have a high level of contrast that would make them easy to see!
+
+Your colors work well together. They can be safely used with little fear that they will be mistaken as the same color by someone colorblind.
+
 
 Thank you!
 
-Color 2 and Color 3 are too dark to be seen together.
-
-Color 1 & Color 2 are very well contrasted. Feel free to use them in a color-blind frinedly palette.
-Color 1 & Color 3 are very well contrasted. Feel free to use them in a color-blind frinedly palette.
-Colors 2 & 3 are too similar to work in a color friendly palette.
-<<<<<<< HEAD
+For a backup of the colors you used, please look at the 'Results' file.
+Thank you for using the Color Blindness Palatte Checker!
 ```
-=======
-```
->>>>>>> 84cac98aaf672fdc7ccd4497da961aaf0421c0c2
